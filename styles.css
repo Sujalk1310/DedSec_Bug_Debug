@@ -1,0 +1,34 @@
+html {
+  scrollbar-color: smooth;
+  overflow-x: hidden;
+}
+
+input[type='radio'] {
+  box-sizing: border-box;
+  appearance: none;
+  background: white;
+  outline: 3.5px solid #333;
+  border: 2px solid white;
+  width: 10px;
+  height: 10px;
+}
+  
+input[type='radio']:checked {
+  background: #333;
+}
+
+.custnav {
+  box-shadow: 5px 5px 10px #222;
+}
+
+.logo {
+  width: 150px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.custshadow {
+  box-shadow: 5px 5px 20px #222;
+}
+
+  
